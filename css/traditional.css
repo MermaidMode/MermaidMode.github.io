@@ -14,7 +14,7 @@ body {
 	overflow: hidden;
 }
 
-a {
+a, h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 18px;
@@ -22,6 +22,9 @@ a {
 	color: grey;	
 	padding: 10px;
 	float: right;
+	letter-spacing: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 a:hover {
@@ -29,7 +32,6 @@ a:hover {
 	font-weight: 800;
 	text-decoration: underline;
 	color: #ecb9a5;
-	letter-spacing: 1px;
 }
 
 

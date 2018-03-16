@@ -13,7 +13,7 @@ body {
 }
 
 /*LINKS INSIDE NAV BAR*/
-a {
+a, h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	font-size: 18px;
@@ -22,6 +22,8 @@ a {
 	padding: 10px;
 	float: right;
 	letter-spacing: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 a:hover {
@@ -31,26 +33,6 @@ a:hover {
 	color: #ecb9a5;
 }
 
-h3 {
-	position: relative;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
-	font-size: 18px;
-	text-decoration: none;
-	color: #f0f4f4;	
-	/*padding: 10px;*/
-	float: right;
-	bottom: 10px;
-
-}
-
-h3:hover {
-	font-family: 'Raleway', sans-serif; 
-	font-weight: 800;
-	text-decoration: underline;
-	color: #ecb9a5;
-	letter-spacing: 1px;
-}
 
 
 /*DROPDOWN CONTAINER*/

@@ -1,0 +1,137 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+	background-color: #f0f4f4;
+	padding-bottom: 800px;
+}
+
+#nav {
+	/*background-color: #353F46;*/
+	padding: 50px;
+	overflow: hidden;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	text-decoration: none;
+	color: grey;	
+	padding: 10px;
+	float: right;
+}
+
+a:hover {
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 800;
+	text-decoration: underline;
+	color: #ecb9a5;
+	letter-spacing: 1px;
+}
+
+
+/*DROPDOWN CONTAINER*/
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+
+
+/*DROPDOWN BUTTON*/
+.dropdown .dropbtn {
+	font-size: 16px; 
+	border: none;
+	outline: none;
+	color: #f0f4f4;	
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+/*BACKGROUND COLOR FOR REEL TAB*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /*background-color: red;*/
+}
+
+/*DROPDOWN CONTENT-HIDDEN BY DEFAULT*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(240, 244, 244, .75);
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  text-decoration: underline;
+  color: #ecb9a5; 
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+	width: 50%;
+	height: auto;
+	position: relative;
+	bottom: 25px;
+	float: left;
+}
+
+h1 {
+	color: #78696e;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+	font-size: 45px;
+	letter-spacing: 1px;
+	margin: auto;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px
+}
+
+/*Thumbnail Styles*/
+.thumbnails {
+  margin-right: -15px;
+}
+.thumbnails a {
+  float: left;
+  width: 20%;
+  padding-right: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.thumbnails img {
+  display: block;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img {
+    opacity: .6;
+    transform: scale(.92);
+}
+
+.thumbnails img:hover {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}

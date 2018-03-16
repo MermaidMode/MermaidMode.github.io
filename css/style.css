@@ -8,7 +8,6 @@ body {
 
 /*NAV BAR CONTAINER*/
 #nav {
-	/*background-color: #353F46;*/
 	padding: 50px;
 	overflow: hidden;
 }
@@ -22,6 +21,7 @@ a {
 	color: #f0f4f4;	
 	padding: 10px;
 	float: right;
+	letter-spacing: 1px;
 }
 
 a:hover {
@@ -29,7 +29,6 @@ a:hover {
 	font-weight: 800;
 	text-decoration: underline;
 	color: #ecb9a5;
-	letter-spacing: 1px;
 }
 
 h3 {
@@ -113,15 +112,6 @@ h3:hover {
 	bottom: 25px;
 	float: left;
 }
-
-/*ask Kat how to make a properly sized hover*/
-
-/*.logo:hover {
-  height: 120px;
-  width: 150px;
-  background-color: #ddd;
-  color: black;
-}*/
 
 
 

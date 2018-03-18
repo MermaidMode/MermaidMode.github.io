@@ -124,3 +124,25 @@ p {
 	height: auto;
 	border-radius: 25px;
 }
+
+/*bottom nav bar*/
+.navbarb {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.navbarb a:hover {
+    background-color: #ddd;
+
+}
+
+.navbarb img {
+	height: 50px;
+	width: auto;
+	padding-left: 10px;
+}

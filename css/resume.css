@@ -111,6 +111,16 @@ h1 {
 	padding-bottom: 25px;
 }
 
+object {
+		float: none;
+	display: block;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+}
+
 
 
 

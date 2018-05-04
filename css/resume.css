@@ -112,7 +112,7 @@ h1 {
 }
 
 object {
-		float: none;
+	float: none;
 	display: block;
 	margin: auto;
 }
@@ -136,6 +136,7 @@ p {
     width: 100%;
 }
 .navbarb a:hover {
+	transition: 2s;
     background-color: #ddd;
 
 }
@@ -145,5 +146,6 @@ p {
 	width: auto;
 	padding-left: 10px;
 }
+
 
 

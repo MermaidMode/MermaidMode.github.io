@@ -17,12 +17,10 @@ $(document).ready(function(){
 
 	$(".dropdown").mouseleave(function(){
 		$(this).children(".dropbtn").css("background-color", "rgba(0, 0, 0, 0)");
-		$(this).children(".dropbtn").animate({transition: "1s"});
-		// $(this).children(".dropbtn").css("transition", "1s");
+		$(this).children(".dropbtn").css("border-radius", "15px");
+		$(this).children(".dropbtn").css("transition", "1s");
 	})
 
-
-// $(this).children(".dropbtn").animate({background-color: "rgba(0, 0, 0, 0)"}, 1s);
 
 
 })

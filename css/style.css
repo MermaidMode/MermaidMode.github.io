@@ -7,12 +7,20 @@ body {
 
 }
 
-/*.vignette {
+
+.vignette {
 	width: 100%;
   	height: 100%;
   	box-shadow: 0 0 900px rgba(0,0,0,0.95) inset;
 
-}*/
+}
+
+body:hover {
+	width: 100%;
+  	height: 100%;
+  	box-shadow: 0 0 0px rgba(0,0,0,0) inset;
+  	transition: 5s;
+}
 
 
 /*NAV BAR CONTAINER*/
@@ -33,6 +41,7 @@ a, h3 {
 	letter-spacing: 1px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	border-radius: 15px;
 }
 
 a:hover {
@@ -49,6 +58,8 @@ a:hover {
 	float: right;
 	overflow: hidden;
 	padding: 5px;
+	margin-left: 3px;
+	margin-right: 3px; 
 }
 
 
@@ -112,7 +123,7 @@ h1 {
 	font-family: 'Open Sans', sans-serif; 
 	font-size: 95px;
 	text-align: center;
-/*	padding-top: 130px;*/
+	padding-top: 130px;
 	text-shadow: 2px 2px 3px #000;
 	letter-spacing: 10px;
 	position: relative;

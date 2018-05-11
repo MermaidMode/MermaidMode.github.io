@@ -117,11 +117,12 @@ h1 {
 	font-family: 'Open Sans', sans-serif; 
 	font-size: 95px;
 	text-align: center;
-	padding-top: 130px;
+	/*padding-top: 130px;*/
 	text-shadow: 2px 2px 3px #000;
 	letter-spacing: 10px;
 	position: relative;
-	top: 30%;
+	/*top: 30%;*/
+	translate: -50%, -50%;
 }
 
 h2 {

@@ -102,7 +102,6 @@ a:hover {
 }
 
 .logo {
-	/*display: inline-block;*/
 	width: auto;
 	height: auto;
 	position: relative;
@@ -111,6 +110,9 @@ a:hover {
 }
 
 
+.headertext {
+	translate: -50%, -50%;
+}
 
 h1 {
 	color: #f0f4f4;
@@ -122,7 +124,7 @@ h1 {
 	letter-spacing: 10px;
 	position: relative;
 	/*top: 30%;*/
-	translate: -50%, -50%;
+	/*translate: -50%, -50%;*/
 }
 
 h2 {
@@ -133,5 +135,6 @@ h2 {
 	text-align: center;
 	text-shadow: 2px 2px 3px #000;
 	letter-spacing: 5px;
-
+	/*translate: -50%, -50%;
+*/
 }

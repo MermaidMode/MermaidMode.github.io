@@ -10,7 +10,7 @@ $(document).ready(function(){
 	})
 
 	$(".dropdown").mouseover(function(){
-		$(this).children(".dropbtn").css("background-color", "rgba(0, 0, 0, .3)");
+		$(this).children(".dropbtn").css("background-color", "rgba(255, 255, 255, .95)");
 		$(this).children(".dropbtn").css("border-radius", "15px");
 		$(this).children(".dropbtn").css("transition", "1s");
 	})

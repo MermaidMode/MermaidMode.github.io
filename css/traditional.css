@@ -11,6 +11,7 @@ body {
 #nav {
 	/*background-color: #353F46;*/
 	padding: 50px;
+	margin: 0;
 	overflow: hidden;
 }
 
@@ -25,6 +26,7 @@ a, h3 {
 	letter-spacing: 1px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	border-radius: 15px;
 }
 
 a:hover {
@@ -39,6 +41,9 @@ a:hover {
 .dropdown {
 	float: right;
 	overflow: hidden;
+	padding: 5px;
+	margin-left: 3px;
+	margin-right: 3px; 
 }
 
 
@@ -55,7 +60,7 @@ a:hover {
 
 /*DROPDOWN CONTENT-HIDDEN BY DEFAULT*/
 .dropdown-content {
-  display: none;
+  /*display: none;*/
   position: absolute;
   background-color: rgba(240, 244, 244, .75);
   min-width: 100px;
@@ -102,7 +107,7 @@ h1 {
 	margin: auto;
 	text-align: center;
 	padding-top: 25px;
-	padding-bottom: 25px
+	padding-bottom: 25px;
 }
 
 /*Thumbnail Styles*/
@@ -139,12 +144,14 @@ h1 {
     position: fixed;
     bottom: 0;
     width: 95%;
+    transition: 1s;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
 .navbarb a:hover {
+	transition: 2s;
     background-color: #ddd;
 
 }

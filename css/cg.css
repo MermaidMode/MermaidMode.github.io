@@ -85,6 +85,7 @@ a:hover {
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
+  transition: 1s;
   text-decoration: underline;
   color: #ecb9a5; 
 }

@@ -21,9 +21,17 @@ $(document).ready(function(){
 		// $(this).children(".dropbtn").css("transition", "1s");
 	})
 
+	$(".logo").mouseover(function(){
+		$(".logo").effect("bounce",{times:4},slow);
+	})
+
+	$(".logo").mouseleave(function(){
+		$(".logo").effect("bounce",{times:0},0);
+	})
+
 
 // $(this).children(".dropbtn").animate({background-color: "rgba(0, 0, 0, 0)"}, 1s);
-
-
+	
+		
 })
 

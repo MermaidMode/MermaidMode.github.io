@@ -1,6 +1,6 @@
 body {
 	background-color: #353F46;
-	background: url("../img/bg.jpg") no-repeat;
+	background: url("../img/bg.jpg") no-repeat
 	center center fixed;
 	background-size: cover;
 	margin: 0;
@@ -21,6 +21,7 @@ body {
 #nav {
 	padding: 50px;
 	overflow: hidden;
+	
 }
 
 /*LINKS INSIDE NAV BAR*/
